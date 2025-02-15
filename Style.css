@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #161616;
+    color: #f3f3f3;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+   
+main {
+    padding: 20px;
+}
+
+.movies {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.movie {
+    background-color: #313131;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.movie img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #2e2e2e;
+    font-size: 0.8em;
+}
+
+
+header {
+    background-color: #161616;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+/* --- Estilização da Página do Filme --- */
+.filme-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Imagem do Filme */
+.filme-poster img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Informações do Filme */
+.filme-info {
+    max-width: 500px;
+}
+
+.filme-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.sinopse {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+.filme-info p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/* Botão de Assistir */
+.btn-play {
+    display: inline-block;
+    background-color: #cc2e2e;
+    color: #000;
+    font-weight: bold;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.btn-play:hover {
+    background-color: #cc1f1f;
+}
+
+/* Temporadas */
+.temporadas h3 {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.temporadas ul {
+    list-style: none;
+    padding: 0;
+}
+
+.temporadas ul li {
+    margin: 5px 0;
+}
+
+.temporadas ul li a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.temporadas ul li a:hover {
+    text-decoration: underline;
+}
